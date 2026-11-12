@@ -1,0 +1,28 @@
+/* Consumer-facing clarity: original brand palette and typography retained. */
+.supply-planner{margin:24px 0 20px;padding:20px;background:#eeeee3;border:1px solid #d7ddcf;border-radius:16px}
+.supply-planner h2{font-family:inherit;font-size:19px;letter-spacing:-.02em;line-height:1.3;margin:0 0 6px}
+.supply-planner p{font-size:13px;line-height:1.6;margin:0 0 14px;color:#52675d}
+.supply-planner label{display:block;font-size:12px;font-weight:700;margin-bottom:6px}
+.supply-planner select{width:100%;min-height:46px;padding:10px 36px 10px 12px;border:1px solid #a9b7a5;border-radius:8px;background:#fffdf7;color:#153d36;font:inherit;font-size:14px;cursor:pointer}
+.supply-planner select:focus-visible{outline:2px solid #c77948;outline-offset:3px}
+.supply-result{display:grid;gap:4px;margin:14px 0 10px;min-height:48px}
+.supply-result strong{font-size:18px;line-height:1.3}.supply-result span{font-size:12px;color:#52675d}
+.supply-planner .supply-note{font-size:11px;line-height:1.6;margin:0}
+.offer-copy strong{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+.featured-label{display:inline-block;border-radius:4px;background:#153d36;color:#fffdf7;padding:3px 5px;font-size:9px;letter-spacing:.05em;line-height:1.2}
+.offer-copy .offer-supply{display:block;color:#153d36;font-weight:600;margin-top:5px;font-size:12px}
+.purchase-highlights{padding:0;margin:18px 0 12px;list-style:none;display:grid;gap:10px;grid-template-columns:1fr 1fr}
+.purchase-highlights li{display:flex;align-items:center;gap:8px;font-size:12px;line-height:1.4}
+.purchase-highlights svg{width:20px;height:20px;flex-shrink:0;fill:none;stroke:#b9653d;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.purchase-highlights a{text-underline-offset:3px}.purchase-highlights li:last-child{grid-column:1/-1}
+.comparison-scroll{overflow-x:auto;border:1px solid #d4dcce;border-radius:18px}
+.routine-comparison table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.65;text-align:left}
+.routine-comparison th,.routine-comparison td{padding:20px 24px;border-bottom:1px solid #d4dcce;vertical-align:top;width:36%}
+.routine-comparison th:first-child{width:28%}
+.routine-comparison thead th{font-size:13px;background:#eeeee3}
+.routine-comparison thead th:nth-child(2){background:#153d36;color:#fffdf7}
+.routine-comparison tbody td:nth-child(2){background:#edf0e5}
+.routine-comparison tbody th{font-size:13px;font-weight:600}
+.routine-comparison tr:last-child>*{border-bottom:0}
+.comparison-note{font-size:12px;color:#65766b;margin:12px 0 0}
+@media(max-width:600px){.supply-planner{padding:16px}.routine-comparison th,.routine-comparison td{padding:13px 10px;font-size:12px}.routine-comparison thead th,.routine-comparison tbody th{font-size:12px}.routine-comparison .section-head{display:block}.offer-copy .offer-supply{font-size:11px}.purchase-highlights{gap:10px 14px}}
