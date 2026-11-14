@@ -43,7 +43,7 @@ const galleryItems=()=>[
  ['triple',t('买二送一组合','Three-bottle bundle')],['five',t('买三送二组合','Five-bottle bundle')]
 ];
 let galleryKey='single';
-const campaignAsset=()=>`assets/packaging-${packageVersion==='a'?'a':'orange'}-scene-real-bulb.png`;
+const campaignAsset=()=>packageVersion==='a'?'assets/packaging-a-scene-neutral-daylight.png':'assets/packaging-orange-scene-real-bulb.png';
 const artIcon=(kind)=>{const paths={drop:'<path d="M12 3C10 7 5 11 5 16a7 7 0 0 0 14 0c0-5-5-9-7-13Z"/><path d="M9 16c0 2 1 3 3 3"/>',energy:'<path d="m13 2-8 12h6l-1 8 9-13h-6l1-7Z"/>',leaf:'<path d="M20 4C9 2 3 8 5 15c1 4 7 6 11 2 3-3 3-7 4-13Z"/><path d="M4 21 15 9"/>',bowl:'<path d="M3 11h18l-2 8H5l-2-8Z"/><path d="M7 7h10M9 3h6M7 22h10"/>',measure:'<path d="m16 3 5 5-12 12-6 1 1-6L16 3Z"/><path d="m13 6 5 5m-9-1 3 3m-6 0 3 3"/>',heart:'<path d="M20 5c-3-3-6-1-8 1-2-2-5-4-8-1-4 4 1 9 8 15 7-6 12-11 8-15Z"/>',paw:'<ellipse cx="6" cy="9" rx="2" ry="3"/><ellipse cx="11" cy="5" rx="2" ry="3"/><ellipse cx="17" cy="7" rx="2" ry="3"/><ellipse cx="21" cy="12" rx="2" ry="3"/><path d="M7 18c1-5 6-8 9-4 2 2 4 6 1 7-3 1-4-2-7-1-2 1-4 0-3-2Z"/>'};return `<svg viewBox="0 0 24 24" aria-hidden="true">${paths[kind]||paths.paw}</svg>`};
 const fullProductFacts=[['Calories','10'],['Sugar','2g'],['Carbohydrate','2g'],['Nicotinamide Mononucleotide (NMN)','30mg'],['Resveratrol','5mg'],['Nicotinamide Adenine Dinucleotide (NAD+)','100mg'],['Coenzyme Q10','5mg']];
 function galleryContent(key){
